@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/657de39a82.js" crossorigin="anonymous"></script>
+    <title>2048 Game</title>
+</head>
+<body>
+    
+    <div id="game-container">
+        <div id="grid-container"></div>
+    </div>
+
+    <div id="game-over">
+        <h1>Game Over</h1>
+        <button id="tryagain">Try again</button>
+    </div>
+    
+    <div class="game-info">
+        <h1>2048 Game</h1>
+        <div id="game-message" class="game-message">
+            <p id="game-time">Time: 00:00</p>
+            <p id="game-score">Score: 0</p>
+        </div>
+        <button id="new-game">New Game</button>
+        <button id="pause-resume">Pause</button>
+        <div class="move">
+            <h1>Controls</h1>
+            <i class="fa-solid fa-arrow-up-long up"></i>
+            <i class="fa-solid fa-arrow-left-long left"></i>
+            <i class="fa-solid fa-arrow-right-long right"></i>
+            <i class="fa-solid fa-arrow-down-long down"></i>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
